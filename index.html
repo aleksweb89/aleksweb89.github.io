@@ -8,5 +8,10 @@
 </head>
 <body>
   test
+  <script>
+    fetch('https://api.opendota.com/api/matches/5186699268').then(data => data.json()).then(info =>{
+      console.log(info);
+    })
+  </script>
 </body>
 </html>
